@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: blueviolet;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#bands {
+    list-style: inside square;
+    font-size: 20px;
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+#bands li {
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+    color: #fc600f;
+}
+#bands li:last-child {
+    border-bottom: 0;
+}
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+#Name {
+    list-style: inside square;
+    font-size: 20px;
+    background: #efefef;
+    width: 250px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgb(0, 225, 0, 0.7);
+}
+
+#Name li {
+    border-bottom: 1px solid red;
+    padding: 20px;
+    color: rgb(222, 135, 168);
+}
